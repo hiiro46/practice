@@ -1,0 +1,174 @@
+body{
+  font-family: "open sans,helvetica neue,Helvetica,Arial,sans-serif;"
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.header{
+  background-color: #f0f8ff;
+  border-bottom: 1px solid #fff;
+  height: 56px;
+
+}
+
+.header-logo{
+  font-size:20px;
+  margin: 10px 0 10px 200px;
+  float: left;
+  padding: 5px;
+  color: black;
+}
+
+.btn-roguin{
+  float: right;
+  margin: 5px 0 0 0;
+  border: 1px solid #696969;
+  padding: 10px 10px 10px 10px;
+  color:#808080;
+  cursor: pointer;
+  box-shadow: 1px 1px black;
+}
+
+.roguin-madal-wrapper{
+  display: none;
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.6);
+  z-index: 100;
+}
+
+.modal{
+position: absolute;
+top:200px;
+left: 691px;
+background-color: #e6ecf0;
+text-align: center;
+padding: 100px 100px 100px;
+border-radius: 10px;
+width: 480px;
+}
+
+.modal h2{
+  position: relative;
+  bottom: 95px;
+}
+
+.btn-roguin:active{
+  background-color: #f5f5f5;
+}
+
+.btn-sigup{
+  float: right;
+  margin: 5px 300px 0 10px;
+  border: 1px solid #696969;
+  background-color: #008080;
+  padding: 10px 10px 10px 10px;
+  color: white;
+  box-shadow: 1px 1px black;
+  cursor: pointer;
+}
+
+.btn-sigup:active{
+  background-color: #5f9ea0;
+}
+
+.top-wrapper{
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  padding: 10px 0 0 0;
+  background-size: cover;
+  height: 804px;
+  width: 1916px;
+  margin: 0 auto;
+  border-left:250px solid #ffe4e1;
+  border-right: 250px solid #ffe4e1;
+}
+
+.container {
+ margin: 260px 0 0 0;
+ color: white;
+ letter-spacing: 10px;
+ padding: 218px 20px 0 100px;
+ font-size: 15px;
+}
+
+.container p{
+  letter-spacing: 5px;
+}
+
+
+.middle-wrappe{
+  background-image: url(https://d1f5hsy4d47upe.cloudfront.net/35/3564a11b487c01d8341dd5da237c5833_t.jpeg);
+  background-size: cover;
+  padding: 40px;
+  height: 300px;
+}
+
+.Description{
+  color: white;
+  text-align: center;
+  opacity: 0.9;
+  letter-spacing: 10px;
+  display: none;
+}
+
+.message-wrapper{
+  margin: 50px 200px 50px 200px;
+  position:relative;
+  border: 10px double black;
+}
+
+.message{
+  margin-right: 875px;
+  padding: 20px;
+  line-height: 20px;
+  background-color:#fff5ee;
+  text-align: center;
+}
+
+.message-image{
+ position: absolute;
+ top:79px;
+ left: 731px;
+}
+
+.message input {
+  height: 20px;
+}
+
+.message textarea{
+  height: 255px;
+  width: 370px
+}
+
+.message h2{
+  height: 35px;
+}
+
+.subaat{
+  margin-top: 10px;
+}
+
+.subaat input{
+  height:30px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.footer{
+  height: 56px;
+  border-top: 1px solid black;
+  background-color: #f0f8ff;
+}
